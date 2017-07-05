@@ -1,18 +1,18 @@
-def High_low (num)
-var = rand(num)
-if > var
+def high_low (num)
+var = rand(9)
+if num > var
 puts "too high"
 
-if < var
+elsif num < var
 puts "too low"
-elsif
-	if var==6
+else var==num
 		puts "You win"
-	else puts var
+	 
+	
 	end 
 end
-end
 
-def high_low(9)
+
+high_low(6)
 
 
